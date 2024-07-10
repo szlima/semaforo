@@ -1,0 +1,10 @@
+
+.light{
+    width: 8rem;
+    height: 8rem;
+
+    border: .5rem solid var(--white-01);
+    border-radius: 50%;
+    
+    transition: .7s;
+}
