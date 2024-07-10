@@ -1,0 +1,19 @@
+
+body{
+    background-color: var(--black-01);
+    color: var(--white-02);
+
+    font-family: sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.main{
+    background-color: var(--black-02);
+
+    padding: 1rem;
+}
+
+.main__title{
+    font-size: 3rem;
+}
