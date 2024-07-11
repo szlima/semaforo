@@ -4,13 +4,13 @@ import Light from './Light';
 
 import './styles/trafficLight.css';
 
-function TrafficLight(){
+function TrafficLight({lights, selectedColor}){
 
     return (
         <div className="traffic-light">
-            <Light color='red'/>
-            <Light color='yellow'/>
-            <Light color='green'/>
+            {
+                lights.map((light,i) => <Light color={light} turnOff={i!==selectedColor}/>)
+            }
         </div>
     );
 }
