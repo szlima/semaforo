@@ -1,10 +1,10 @@
 
 import './styles/light.css';
 
-function Light(){
+function Light({color, turnOff=true}){
 
     return (
-        <div className="light"></div>
+        <div className={`light light--${color} ${turnOff && 'light--turn-off'}`}></div>
     );
 }
 

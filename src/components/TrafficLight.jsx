@@ -8,9 +8,9 @@ function TrafficLight(){
 
     return (
         <div className="traffic-light">
-            <Light />
-            <Light />
-            <Light />
+            <Light color='red'/>
+            <Light color='yellow'/>
+            <Light color='green'/>
         </div>
     );
 }

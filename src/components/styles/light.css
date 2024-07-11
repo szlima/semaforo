@@ -8,3 +8,19 @@
     
     transition: .7s;
 }
+
+.light--red{
+    background-color: var(--red);
+}
+
+.light--yellow{
+    background-color: var(--yellow);
+}
+
+.light--green{
+    background-color: var(--green);
+}
+
+.light--turn-off{
+    box-shadow: inset 0 0 0 5rem var(--black-03);
+}
