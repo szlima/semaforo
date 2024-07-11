@@ -6,6 +6,8 @@
     border: .5rem solid var(--white-01);
     border-radius: 50%;
     
+    position: relative;
+    cursor: not-allowed;
     transition: .7s;
 }
 
@@ -21,7 +23,35 @@
     background-color: var(--green);
 }
 
+.light:hover::after{
+    padding: .5rem;
+    background-color: var(--white-01);
+    color: var(--black-01);
+
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: bold;
+}
+
+.light--red:hover::after{
+    content: 'Vermelha';
+}
+
+.light--yellow:hover::after{
+    content: 'Amarela';
+}
+
+.light--green:hover::after{
+    content: 'Verde';
+}
+
 .light--turn-off{
+    cursor: pointer;
     box-shadow: inset 0 0 0 5rem var(--black-03);
 }
 

@@ -9,11 +9,35 @@ body{
 }
 
 .main{
-    background-color: var(--black-02);
-
     padding: 1rem;
+    background-color: var(--black-02);
 }
 
 .main__title{
+    color: var(--white-01);
     font-size: 3rem;
+}
+
+.main__info{
+    max-width: 900px;
+    margin: 1rem auto;
+    padding: .5rem 0;
+
+    border-width: 1px 0;
+    border-style: solid;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main__info--red{
+    border-color: var(--red);
+}
+
+.main__info--yellow{
+    border-color: var(--yellow);
+}
+
+.main__info--green{
+    border-color: var(--green);
 }
