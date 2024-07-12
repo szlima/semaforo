@@ -1,7 +1,6 @@
 
 .traffic-light{
     width: 20rem;
-    margin: 2rem auto;
     padding: 2rem;
 
     background-color: var(--black-01);
